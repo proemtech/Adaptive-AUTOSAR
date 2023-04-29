@@ -8,9 +8,10 @@ Adaptive AUTOSAR is a simulated _Adaptive Platform_ enviroment over Linux define
 It will be tried to use minimum number of dependencies as much as possible. The current dependencies are as follows:
 
 - Cpp Standard: 14
-- Cmake mimimum version: 3.14
+- Cmake mimimum version: 3.14 (apt-get install cmake)
+- OpenSSL (apt-get install libssl-dev)
 - Compiler:
-    - GCC C/C++ Compiler (x86-64 Linux GNU): 11.2.0; or
+    - GCC C/C++ Compiler (x86-64 Linux GNU): 11.2.0; (aptßget install build-essential) or
     - Clang C/C++ Compiler (x86-64 PC Linux GNU): 14.0.0
 - Google Test: v1.12.1
 - [pugixml 1.13](https://pugixml.org) (3rd party C++ libary)
